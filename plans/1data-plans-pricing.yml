@@ -1,0 +1,25 @@
+generated: '2026-09-05'
+method: searched
+source: >-
+  https://www.oneaix.com/ , https://www.oneaix.com/cuber/ , https://www.oneaix.com/linker/ and
+  https://www.oneaix.com/about/ (all HTTP 200, 2026-09-05), plus direct probes of
+  https://www.oneaix.com/pricing (404) and https://www.oneaix.com/price (404). The sitemap at
+  https://www.oneaix.com/sitemap.xml lists no pricing page, and the llms.txt site index at
+  https://www.oneaix.com/llms.txt lists no pricing page either.
+plan_count: 0
+currency: null
+plans: []
+note: >-
+  ONEAIX publishes no plans, tiers, list prices or usage quotas of any kind. Every commercial call
+  to action on the site is a sales motion — 申请试用 ("apply for a trial"), 预约演示 ("book a demo"),
+  联系我们 ("contact us") — routed to a phone number (400-821-5161, Mon–Fri 09:00–18:30) and
+  BD@oneaix.com. The 小沓AI Agentic Services line is described as outcome-priced ("按完成票据结果交付"
+  — delivered and billed per completed document/filing) and the LLM is offered for private
+  deployment, both of which are quoted per engagement. This is an honest zero: enterprise
+  contact-sales only, not a pricing page we failed to find.
+sales_gate:
+  type: contact-sales
+  channels:
+  - phone: '400-821-5161'
+  - email: BD@oneaix.com
+  - form: https://www.oneaix.com/

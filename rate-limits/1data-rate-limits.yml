@@ -1,0 +1,19 @@
+generated: '2026-09-05'
+method: searched
+source: >-
+  Full STEP 0b contract discovery across every ONEAIX host on 2026-09-05 — https://www.oneaix.com/
+  (200), https://www.oneaix.com/openapi.json (404), https://www.oneaix.com/docs (404),
+  https://www.oneaix.com/api (404), https://www.oneaix.com/developers (404), and the
+  https://www.yxd.info/ product platform, whose every unmatched route (including /doc.html,
+  /v2/api-docs, /swagger.json and /openapi.json) returns the same 1,430-byte single-page-app shell.
+limit_count: 0
+limits: []
+headers: []
+exhaustion_status: null
+note: >-
+  ONEAIX documents no rate limits because it publishes no public API. There is no developer portal,
+  no API reference, no machine-readable contract and no key-issuance flow on any host this record
+  knows; the 小沓AI platform at www.yxd.info is a login-gated tenant application. This is an honest
+  zero recorded after a real search, not an unchecked field. If ONEAIX later opens a customer or
+  partner API, the runtime signal to capture here is the response-header family (RateLimit-* /
+  X-RateLimit-* / Retry-After) and the status returned on exhaustion.

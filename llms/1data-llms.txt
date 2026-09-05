@@ -1,0 +1,43 @@
+# ONEAIX壹沓
+
+ONEAIX壹沓是全球供应链数字员工领导者，打造基于大模型的数字员工平台，提供小沓AI（供应链物流、供应链品牌）等Agent产品，助力2000+企业实现人机协作、降本增效。
+
+## 产品
+
+- [供应链物流](https://www.oneaix.com/cuber): 小沓AI·供应链物流的产品介绍和说明
+- [供应链品牌](https://www.oneaix.com/linker):小沓AI·供应链品牌的产品介绍和说明
+
+## 供应链物流行业解决方案
+
+- [销售极速报价](https://www.oneaix.com/solutions/cuber/sales-quick-quote): 从人工查价到AI即时辅助报价，秒级响应客户
+- [代理询价智能协同](https://www.oneaix.com/solutions/cuber/agent-inquiry-collaboration): 从人工外询到AI协同询价，代理匹配、询价与比价自动完成
+- [客户询盘智能接待](https://www.oneaix.com/solutions/cuber/customer-inquiry-reception): 从人工盯群到AI智能接待，客户询盘秒级响应、闭环报价
+- [智能订舱](https://www.oneaix.com/solutions/cuber/intelligent-booking): 从接单到放舱监控，高频重复动作一键完成
+- [智能提单](https://www.oneaix.com/solutions/cuber/intelligent-bill-of-lading): 从提单接单到COPY件 核对， 让单证作业标准化交付
+
+## 供应链品牌行业解决方案
+
+- [GEO可见度增长](https://www.oneaix.com/solutions/linker/geo-visibility-growth): 从传统搜索优化到AI答案可见，让品牌被AI理解、引用和推荐
+- [品牌认知与资产管理](https://www.oneaix.com/solutions/linker/brand-awareness-asset-management): 从人工搜集资料到AI持续洞察， 让品牌资产可调用、可复用
+- [公关声誉与舆情响应](https://www.oneaix.com/solutions/linker/pr-reputation-response): 从被动人工监控到AI实时预警，让公关响应更快、更可控
+- [电商经营数据分析](https://www.oneaix.com/solutions/linker/ecommerce-data-analysis): 从人工拉数复盘到AI经营分析，让电商问题更快定位、更准归因
+
+## 客户案例
+
+- [客户案例](https://www.oneaix.com/cases): 小沓AI数字员工的客户成功案例
+
+## 支持 & 资源
+
+- [关于我们](https://www.oneaix.com/about): ONEAIX壹沓的公司介绍
+- [新闻资讯](https://www.oneaix.com/news): 产品新闻和行业资讯
+
+## 联系
+
+- 官方网站: [https://www.oneaix.com](https://www.oneaix.com)
+- 电话: 400-821-5161
+- 邮箱: BD@oneaix.com
+- 公司: 壹沓科技（上海）有限公司
+
+## 最后更新
+
+2026-08-21

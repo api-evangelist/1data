@@ -1,0 +1,115 @@
+generated: '2026-09-05'
+method: probed
+source: >-
+  Live GET of the named /.well-known/ path list on every host this record knows — the ONEAIX
+  marketing host (www.oneaix.com and its apex) and the www.yxd.info product/tenant platform host.
+  Probed 2026-09-05 with a browser User-Agent.
+result: >-
+  none — no /.well-known/ document is served on any ONEAIX host. Every path 404s on
+  www.oneaix.com and oneaix.com (nginx/1.24.0 404 body). www.yxd.info answers 200 to every path,
+  but with the identical 1,430-byte single-page-app HTML shell it returns for every unmatched
+  route, which is not a document and is recorded as a miss.
+note: >-
+  No WellKnown, SecurityTxt, APICatalog, AgentCard or OAuth pointer is emitted in apis.yml. This
+  file records an ABSENCE; a pointer would assert that ONEAIX serves these surfaces. The company's
+  legacy domain 1data.info issues a 301 to https://www.oneaix.com/, so its /.well-known/ tree is
+  the same one recorded here. ONEAIX does publish a first-party llms.txt (see llms/1data-llms.txt)
+  and a GEO-tuned robots.txt at https://www.oneaix.com/robots.txt that allows 45 named AI crawlers,
+  but neither lives under /.well-known/.
+hosts:
+- host: www.oneaix.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+- host: oneaix.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+- host: www.yxd.info
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: null
+    note: SPA shell (1430-byte HTML), not a document — recorded as a miss
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    note: SPA shell (1430-byte HTML), not a document — recorded as a miss
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    note: SPA shell (1430-byte HTML), not a document — recorded as a miss
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    file: null
+    note: SPA shell (1430-byte HTML), not a document — recorded as a miss
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    note: SPA shell (1430-byte HTML), not a document — recorded as a miss
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    file: null
+    note: SPA shell (1430-byte HTML), not a document — recorded as a miss
+  - path: /.well-known/agent-card.json
+    status: 200
+    file: null
+    note: SPA shell (1430-byte HTML), not a document — recorded as a miss
+  - path: /.well-known/agent.json
+    status: 200
+    file: null
+    note: SPA shell (1430-byte HTML), not a document — recorded as a miss
+  - path: /.well-known/aauth-resource.json
+    status: 200
+    file: null
+    note: SPA shell (1430-byte HTML), not a document — recorded as a miss

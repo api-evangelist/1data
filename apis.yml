@@ -1,8 +1,19 @@
 aid: 1data
-name: 1data
-description: '1data is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: ONEAIX (1data / Yida Technology)
+description: >-
+  ONEAIX (壹沓科技（上海）有限公司, formerly branded 1data / Yida Technology) is a Shanghai-headquartered
+  enterprise AI company founded in 2016 that builds "digital employees" for global supply chains.
+  Its 小沓AI platform ships two product lines — Cuber for supply-chain logistics (AI sales, route,
+  operations, documentation and customs specialists covering quoting, booking, bills of lading,
+  manifests and customs declaration) and Linker for supply-chain brands (brand, PR, GEO, content,
+  e-commerce and data-analysis specialists) — on three in-house layers: Dax LLM, a supply-chain
+  vertical LLM; Dax OS, an enterprise agent runtime and governance platform; and Dax KE, an
+  agent-native knowledge engine, all delivered from the login-gated www.yxd.info tenant
+  platform. Customers include COSCO Shipping, Sinotrans, Qingdao Port, DSV, Xtep and Colgate.
+  ONEAIX publishes no developer program, API reference or machine-readable contract; the only
+  agent-facing artifact it serves is a first-party llms.txt.
 url: https://raw.githubusercontent.com/api-evangelist/1data/refs/heads/main/apis.yml
+image: https://www.oneaix.com/favicon.ico
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +23,17 @@ created: '2026-09-05'
 modified: '2026-09-05'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Large Language Models
+- Supply Chain
+- Logistics
+- Freight Forwarding
+- Robotic Process Automation
+- Digital Workers
+- Enterprise Software
+- E-Commerce
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +41,53 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/1data-domain-security.yml
 - type: Website
+  url: https://www.oneaix.com/
+- type: SecondaryMarket
   url: https://equityzen.com/company/1data
+- type: Blog
+  url: https://www.oneaix.com/news/
+- type: GitHubOrganization
+  url: https://github.com/OneAIX
+- type: LLMsTxt
+  url: llms/1data-llms.txt
+- type: Conformance
+  url: conformance/1data-conformance.yml
+- type: Compliance
+  url: conformance/1data-conformance.yml
+- type: Plans
+  url: plans/1data-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/1data-rate-limits.yml
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 7
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    ONEAIX sells AI "digital employees" as a login-gated tenant application at www.yxd.info and
+    markets no API at all — its sitemap and its own llms.txt site index list only marketing,
+    solution, case and news pages, /developers /docs /api /pricing all 404 on the marketing host,
+    every /.well-known/ path 404s, and www.yxd.info answers every probe path with the same
+    1,430-byte SPA shell rather than a spec.
+  evidence:
+  - url: https://www.oneaix.com/
+    status: 200
+  - url: https://www.oneaix.com/llms.txt
+    status: 200
+  - url: https://www.oneaix.com/openapi.json
+    status: 404
+  - url: https://www.oneaix.com/developers
+    status: 404
+  - url: https://www.oneaix.com/.well-known/api-catalog
+    status: 404
+  - url: https://www.yxd.info/swagger.json
+    status: 200
+  - url: https://1data.info/
+    status: 301
+  checked: '2026-09-05'

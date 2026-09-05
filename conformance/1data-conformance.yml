@@ -1,0 +1,100 @@
+generated: '2026-09-05'
+method: searched
+source: >-
+  https://www.oneaix.com/about/ (HTTP 200, 2026-09-05) — the "荣誉资质" (honours and qualifications)
+  block of ONEAIX's own About page, plus the certification strip repeated in the site footer on
+  https://www.oneaix.com/ and https://www.oneaix.com/cuber/.
+scope: >-
+  Company-level and platform-level certifications and regulatory filings that ONEAIX publishes on
+  its own site. There is NO technical API conformance to assert: ONEAIX publishes no OpenAPI,
+  AsyncAPI, GraphQL SDL or any other machine-readable contract, so no oauth2/oidc/rfc9457/
+  pagination/idempotency conformance can be derived. Those entries are deliberately absent rather
+  than recorded as false.
+conformance:
+
+- id: iso-27001
+  name: ISO/IEC 27001 — Information Security Management
+  conforms: true
+  category: security-management
+  evidence: https://www.oneaix.com/about/
+  note: >-
+    Listed by name in the company's own 荣誉资质 block. Certificate number, issuing body and validity
+    dates are not published; the claim is the company's, recorded as published rather than verified
+    against a certification registry.
+
+- id: iso-9001
+  name: ISO 9001 — Quality Management Systems
+  conforms: true
+  category: quality-management
+  evidence: https://www.oneaix.com/about/
+  note: Named in the company's published 荣誉资质 block; no certificate number published.
+
+- id: iso-20000
+  name: ISO/IEC 20000 — IT Service Management
+  conforms: true
+  category: service-management
+  evidence: https://www.oneaix.com/about/
+  note: Named in the company's published 荣誉资质 block; no certificate number published.
+
+- id: mlps-level-3
+  name: 网络安全等级保护三级 (China MLPS / Classified Protection of Cybersecurity, Level 3)
+  conforms: true
+  category: regulatory-china
+  evidence: https://www.oneaix.com/about/
+  note: >-
+    "等保三级" is carried in the footer of every ONEAIX page as well as the About page. MLPS Level 3
+    is the graded cybersecurity protection level required of Chinese systems handling significant
+    volumes of business data under the Cybersecurity Law (GB/T 22239). Filing number not published.
+
+- id: cac-generative-ai-filing
+  name: 大模型国家网信部备案 (CAC generative-AI / large-model service filing)
+  conforms: true
+  category: regulatory-china
+  evidence: https://www.oneaix.com/about/
+  note: >-
+    ONEAIX states its Dax LLM is filed with the Cyberspace Administration of China under the Interim
+    Measures for the Management of Generative AI Services. The filing/registration number is not
+    published on the site, so this is a published claim rather than a registry-verified one.
+
+- id: icp-filing
+  name: ICP 备案 沪ICP备17005531号-15
+  conforms: true
+  category: regulatory-china
+  evidence: https://www.oneaix.com/
+  note: >-
+    ICP licence number published in the site footer and registered to 壹沓科技（上海）有限公司 — a
+    first-party identity signal that the oneaix.com surface is operated by this legal entity.
+
+- id: hnte
+  name: 国家级高新技术企业 (National High-Tech Enterprise)
+  conforms: true
+  category: designation-china
+  evidence: https://www.oneaix.com/about/
+
+- id: srdi-little-giant
+  name: 国家级专精特新“小巨人”企业 (national-level Specialized, Refined, Differentiated and Innovative "Little Giant")
+  conforms: true
+  category: designation-china
+  evidence: https://www.oneaix.com/about/
+
+domain_standards:
+  assessed: true
+  result: none-recorded
+  note: >-
+    ONEAIX's About page claims participation in drafting a Chinese national standard for artificial
+    intelligence in international freight forwarding (参编国际货运人工智能相关国家标准), and its logistics
+    products name real industry message surfaces — ocean manifests, VGM filing across 18+ shipping
+    agents and 70+ carriers, bills of lading, customs declarations — which in this market are
+    normally carried over UN/EDIFACT (IFTMIN/IFTMBF/VERMAS) or carrier portal APIs. NONE of this is
+    recorded as a domain_standard_conformance entry: the 0.12.0 check reads the CONTRACT, and
+    ONEAIX publishes no contract. The standard name, number and issuing body are not stated on the
+    site either, so there is nothing to cross-check. Recording a prose marketing claim here would
+    be exactly the fabrication this field was added to prevent.
+
+not_assessable:
+  reason: no-machine-readable-contract
+  detail: >-
+    STEP 0b contract discovery found no OpenAPI, Swagger, GraphQL SDL, AsyncAPI, MCP tools/list,
+    gRPC/Protobuf, WSDL or OGC surface on any ONEAIX host. Without a contract, oauth2, oidc,
+    rfc9457, json:api, odata, scim, pagination and idempotency conformance are unknowable, not
+    absent — they are omitted rather than asserted false.
