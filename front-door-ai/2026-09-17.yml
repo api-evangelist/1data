@@ -1,0 +1,27 @@
+# Front Door AI Index — 1data — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: 1data
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.oneaix.com
+  final_host: www.oneaix.com
+  ownership: own
+  owner: 1data
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 3
+  host_score: 3
+  density: 30.0
+  words: 100
+  tiers:
+    agentic: 0
+    core: 3
+    model: 0
+  ambiguous: 3
+  top_terms:
+    agent: 3
+    AI: 2
+    LLMs: 1
